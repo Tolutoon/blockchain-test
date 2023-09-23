@@ -1,17 +1,14 @@
-import { Navbar, Welcome, Services, Footer, Transactions } from './components';
-import './App.css'
+import { Routes, Route} from 'react-router-dom';
+import './App.css';
+import Market from '../pages/Market';
+import Home from '../pages/Home';
 
 function App() {
   return (
-    <div className='min-h-screen'>
-      <div className='gradient-bg-welcome'>
-      <Navbar/>
-      <Welcome/>
-      </div>
-      <Services/>
-      <Transactions />
-      <Footer/>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/market' element={<Market/>}/>
+    </Routes>
 
   )
 }
