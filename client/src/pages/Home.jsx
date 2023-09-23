@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Welcome, Services, Footer, Transactions } from '../src/components';
+import { Navbar, Welcome, Services, Footer, Transactions } from '../components';
 
 
 function Home() {
