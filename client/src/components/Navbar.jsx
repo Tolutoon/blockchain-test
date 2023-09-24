@@ -61,7 +61,7 @@ const Navbar = () => {
      className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-[40vh] shadow-2xl md:hidden list-none
      flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in">
             <AiOutlineClose
-              fontSize={32}
+              fontSize={24}
               className="cursor-pointer text-white"
               onClick={() => setToggleMenu(false)}
             />{" "}
